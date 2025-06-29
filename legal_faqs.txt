@@ -1,0 +1,15 @@
+# Sample data/legal_faqs.txt
+What is a will?
+A will is a legal declaration of the intention of a person regarding the distribution of their property after death.
+
+How can I evict a tenant in India?
+Eviction requires a legal notice under rent laws and a court order. Illegal eviction is punishable.
+
+What happens if someone dies without a will?
+Their property is distributed as per succession laws, like the Hindu Succession Act for Hindus.
+
+Can elderly parents seek protection from abusive children?
+Yes, under the Maintenance and Welfare of Parents and Senior Citizens Act, 2007, they can file complaints with SDM.
+
+Is registration of will mandatory in India?
+No, but it is advisable for authenticity.
