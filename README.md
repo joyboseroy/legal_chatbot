@@ -12,10 +12,10 @@ Smart re-indexing — updates only when your files change
 (All tools are open source and running locally)
 
 This is perfect for:
-
 Law students
 Civic tech activists
 Anyone building tools for access to justice
+
 Step 1: Setting Up Your Local Stack
 Let’s start with the basics. You’ll need:
 
@@ -36,11 +36,11 @@ Step 2: Prepare Your Legal Data
 Create a folder called data/. This is where your legal documents will go. Think of it like your law library.
 
 Example files:
-
 hindu_succession_act.pdf
 model_tenancy_act.txt
 senior_citizen_law.docx
 consumer_protection.html
+
 The more readable and structured these files are, the better the chatbot will perform.
 
 You can get high-quality versions by searching in google or from:
@@ -48,6 +48,7 @@ You can get high-quality versions by searching in google or from:
 India Code
 eGazette
 Government websites for state-specific rent acts or succession rules
+
 Step 3: Indexing the Law
 This part is a bit technical, but extremely powerful. We’re going to use LangChain to process and split documents, Chroma as a vector database, and sentence-transformers to create embeddings.
 
