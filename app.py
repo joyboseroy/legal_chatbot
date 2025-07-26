@@ -1,4 +1,4 @@
-# app.py (Final version with smart re-indexing, ChromaDB, multi-format support, and custom legal prompt)
+# app.py 
 import streamlit as st
 from langchain.vectorstores import Chroma
 from langchain.embeddings import HuggingFaceEmbeddings
@@ -113,7 +113,7 @@ qa_chain = RetrievalQA.from_chain_type(
 
 # Streamlit UI setup
 st.set_page_config(page_title="India Legal Chatbot (Offline)", layout="centered")
-st.title("\U0001f1ee\U0001f1f3 India Legal Chatbot (Offline)")
+st.title("India Legal Chatbot (Offline)")
 st.markdown("Enter your question about Indian law. Your answer will be based on local legal documents (.txt, .pdf, .docx, .html) in the 'data' folder.")
 
 # Main input for chatbot
@@ -127,5 +127,5 @@ if user_input:
 
         with st.expander("View source documents"):
             for doc in response["source_documents"]:
-                st.markdown(f"📄 **{doc.metadata.get('source', 'Unknown Source')}**")
+                st.markdown(f" **{doc.metadata.get('source', 'Unknown Source')}**")
                 st.markdown(doc.page_content[:500] + "...")
