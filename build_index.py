@@ -33,4 +33,4 @@ vectorstore = Chroma.from_documents(
 )
 
 vectorstore.persist()
-print("✅ Chroma vector index built and saved.")
+print("Chroma vector index built and saved.")
