@@ -1,5 +1,9 @@
 langchain
-faiss-cpu
+langchain-community
+chromadb
 sentence-transformers
 streamlit
 ollama
+pymupdf
+python-docx
+unstructured[docx]
