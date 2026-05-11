@@ -1,0 +1,8 @@
+chroma_legal_index/
+__pycache__/
+*.pkl
+*.pyc
+.env
+*.egg-info/
+dist/
+build/
