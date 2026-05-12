@@ -75,6 +75,7 @@ Visit `localhost:8501` and start asking questions.
 | Embeddings | Sentence Transformers |
 | UI | Streamlit |
 | Doc parsing | PyMuPDF, python-docx, Unstructured |
+| Evaluation | evaluate.py — faithfulness, relevancy, cost tracking |
 
 ---
 
@@ -97,6 +98,7 @@ building tools for access to justice in India.
 
 - [ ] Add Hindi language support
 - [ ] Swap ChromaDB for Milvus for larger corpora
+- [X] Basic evaluation framework (evaluate.py) — faithfulness, relevancy, token cost
 - [ ] Add LLM-as-judge evaluation layer
 - [ ] Support for court judgments (eCourts API)
 
